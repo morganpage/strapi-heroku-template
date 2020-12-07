@@ -12,15 +12,15 @@
   ],
   "env":{
     "CLOUDINARY_NAME": {
-      "description":"1 - Cloudinary name",
+      "description":"Cloudinary cloud name",
       "value":""
     },
     "CLOUDINARY_KEY": {
-      "description":"2 - Cloudinary key",
+      "description":"Cloudinary API key",
       "value":""
     },
     "CLOUDINARY_SECRET": {
-      "description":"3 - Cloudinary secret",
+      "description":"Cloudinary API secret",
       "value":""
     }
   },
