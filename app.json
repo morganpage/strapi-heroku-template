@@ -1,7 +1,7 @@
 {
-  "name": "Strapi",
-  "description": "Strapi Heroku 1 click deploy button",
-  "keywords": ["strapi", "heroku"],
+  "name": "Blog Backend",
+  "description": "The Blog Backend",
+  "keywords": ["strapi", "heroku","blog"],
   "repository": "https://github.com/strapi/strapi-heroku-template",
   "addons": ["heroku-postgresql:hobby-dev"],
   "image": "heroku/nodejs",
@@ -12,17 +12,18 @@
   ],
   "env":{
     "CLOUDINARY_NAME": {
-      "description":"Cloudinary name",
+      "description":"1 - Cloudinary name",
       "value":""
     },
     "CLOUDINARY_KEY": {
-      "description":"Cloudinary key",
+      "description":"2 - Cloudinary key",
       "value":""
     },
     "CLOUDINARY_SECRET": {
-      "description":"Cloudinary secret",
+      "description":"3 - Cloudinary secret",
       "value":""
     }
-
-  }
+  },
+  "success_url":"/admin",
+  "website":"https://founderofa.com/"
 }
