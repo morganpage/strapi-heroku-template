@@ -2,7 +2,7 @@
   "name": "Blog Backend",
   "description": "The Blog Backend",
   "keywords": ["strapi", "heroku","blog"],
-  "repository": "https://github.com/strapi/strapi-heroku-template",
+  "repository": "https://github.com/morganpage/blog-backend",
   "addons": ["heroku-postgresql:hobby-dev"],
   "image": "heroku/nodejs",
   "buildpacks": [
